@@ -9,9 +9,23 @@
     "author": "Aby Mammen Mathew",
     "license": "MIT",
     "dependencies": {
-        "lodash": "^2.4.1"
+        "lodash": "^2.4.1",
+        "firmata": "^0.4.0",
+        "mqtt": "^0.3.13"
     },
     "directories": {
         "example": "examples"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/abymmathew/mlidynamics.iot.vsp.git"
+    },
+    "keywords": [
+        "serialport",
+        "mqtt"
+    ],
+    "bugs": {
+        "url": "https://github.com/abymmathew/mlidynamics.iot.vsp/issues"
+    },
+    "homepage": "https://github.com/abymmathew/mlidynamics.iot.vsp"
 }
