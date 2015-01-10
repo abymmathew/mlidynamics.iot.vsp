@@ -1,0 +1,14 @@
+{
+    "name": "mqttserial",
+    "version": "1.0.0",
+    "description": "Example for MQTT Virtual Serial Port",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "mqtt-vsp": "1.0.0"
+    }
+}
