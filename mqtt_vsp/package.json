@@ -1,6 +1,6 @@
 {
     "name": "mqtt-vsp",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Virtual serial port using mqtt",
     "main": "index.js",
     "scripts": {
@@ -10,8 +10,8 @@
     "license": "MIT",
     "dependencies": {
         "lodash": "^2.4.1",
-        "firmata": "^0.4.0",
-        "mqtt": "^0.3.13"
+        "firmata": "0.4.0",
+        "mqtt": "0.3.13"
     },
     "directories": {
         "example": "examples"
