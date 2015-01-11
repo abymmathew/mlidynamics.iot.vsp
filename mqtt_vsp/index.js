@@ -39,6 +39,7 @@ function MqttSerialPort(connx, options) {
         this.sendInterval = SEND_INTERVAL;
     }
 
+    this.bus = connx;
     this.buffer = null;
     this.lastCheck = 0;
     this.lastSend = 0;
@@ -76,7 +77,7 @@ MqttSerialPort.prototype.open = function (callback) {
 MqttSerialPort.prototype.write = function (data, callback) {
 
     var self = this;
-    if (!this.skynet) {
+    if (!this.bus) {
         var err = new Error("port not open.");
         if (callback) {
             callback(err);
