@@ -77,7 +77,7 @@ MqttSerialPort.prototype.write = function (data, callback) {
 
     var self = this;
     if (!this.skynet) {
-        var err = new Error("SkynetSerialport not open.");
+        var err = new Error("port not open.");
         if (callback) {
             callback(err);
         } else {

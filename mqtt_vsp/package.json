@@ -1,6 +1,6 @@
 {
     "name": "mqtt-vsp",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Virtual serial port using mqtt",
     "main": "index.js",
     "scripts": {
